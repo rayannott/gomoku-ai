@@ -65,7 +65,6 @@ class Board:
                 if not (positive or negative):
                     break    
             # print('streak:', d, streak)
-        if streak == 5:
-            return current_color
+            if streak == 5:
+                return current_color
         return 0
-
